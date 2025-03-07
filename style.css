@@ -1,0 +1,90 @@
+/* 🌸 Aesthetic Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8d7da, #89c2d9); /* Soft pink to teal gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 📋 To-Do List Container */
+.todo-container {
+    background: rgba(255, 255, 255, 0.8); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* 📝 Heading */
+h1 {
+    color: #2c2c2c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* 🔲 Input Field */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #89c2d9;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* ➕ Add Button */
+button {
+    background: #f8d7da;
+    color: #2c2c2c;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffb6c1; /* Slightly darker pink */
+}
+
+/* ✅ Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ❌ Delete Button */
+.delete {
+    background: #ff4d6d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete:hover {
+    background: #d64056;
+}
